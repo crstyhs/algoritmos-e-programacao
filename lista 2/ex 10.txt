@@ -1,0 +1,6 @@
+solicitar os 3 valores //3 2 1 
+verificar se  o primeiro valor é menor que o segundo e maior que o terceiro // 3<2(falso) e 3<1(falso) 
+se verdadeiro mostre o primeiro valor na tela //resultado=falso
+se falso verificar se o segundo valor é menor que o primeiro valor e o terceiro valor //2<3(verdadeiro) e 2<1(falso) 
+se verdadeiro mostre o segundo valor na tela//resultado=falso
+se falso mostre o terceiro valor na tela //1

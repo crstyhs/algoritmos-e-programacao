@@ -1,0 +1,11 @@
+informe o DDD
+verificar o DDD
+se 61 mostrar a frase "pertence a cidade : Brasília"
+se 71 mostrar a frase "pertence a cidade : Salvador
+se 11 mostrar a frase "pertence a cidade : São Paulo
+se  21 mostrar a frase "pertence a cidade : Rio de Janeiro
+se 32 mostrar a frase "pertence a cidade : Juiz de Fora
+se 19 mostrar a frase "pertence a cidade : Campinas
+se 27 mostrar a frase "pertence a cidade : Vitória
+se 31 mostrar a frase "pertence a cidade : Belo Horizonte
+se qualquer outro mostrar a frase "pertence a cidade : uma cidade no Brasil sem identificação
