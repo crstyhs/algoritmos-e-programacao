@@ -12,14 +12,14 @@ while(1!=2){
 	scanf("%c",&opcao);
 	switch(opcao) {
 	case 'M': printf("informe a nota da pessoa: ");
-	scanf("%fl",&nota);
-	if(nota<0) printf("a média masculina é %.2fl\n",media_masculina);
+	scanf("%f",&nota);
+	if(nota<0) printf("a mÃ©dia masculina Ã© %.2f\n",media_masculina);
 	pessoas_masculino++;
 	nota_total_masculino=nota_total_masculino+nota;
 	media_masculina=nota_total_masculino/pessoas_masculino;break;
 	case 'F': printf("informe a nota da pessoa: ");
-	scanf("%fl",&nota);
-	if(nota<0) printf("a média feminina é %.2fl\n",media_feminina);
+	scanf("%f",&nota);
+	if(nota<0) printf("a mÃ©dia feminina Ã© %.2f\n",media_feminina);
 	pessoas_feminino++;
 	nota_total_feminino=nota_total_feminino+nota;
 	media_feminina=nota_total_feminino/pessoas_feminino;break;}}
