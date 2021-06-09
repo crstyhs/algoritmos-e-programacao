@@ -6,13 +6,13 @@ int main(){
 	float media;
 	do{
 	
-	printf("informe o número para ser adicionado a média: ");
+	printf("informe o nÃºmero para ser adicionado a mÃ©dia: ");
 	scanf("%i",&numero);
 	if(numero%2==0 and numero!=0){
 	 valor_total=valor_total+numero;
 	 numero_total++;}
 	 else if(numero==0){ media=valor_total/numero_total;
-	 printf("a média é %.2fl",media);
+	 printf("a mÃ©dia Ã© %.2f",media);
 	 return 0;}}
 	 while(1!=0);
 }
