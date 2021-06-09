@@ -12,11 +12,11 @@ int main(){
 	setbuf(stdin,0);
 	scanf("%c",&opcao);
 	switch(opcao){case 'F': printf("Informe a altura: ");
-	scanf("%fl",&altura[contador]);
+	scanf("%f",&altura[contador]);
 	total_altura=total_altura+altura[contador];
 	pessoas++;break;
 	case 'M': printf("Informe a altura: ");
-	scanf("%fl",&altura[contador]);}
+	scanf("%f",&altura[contador]);}
 }
 	for(contador=0;contador<50;contador++){
 		if(contador==0) {altura[contador]=maior_altura;
@@ -27,6 +27,6 @@ int main(){
 		}
 	}
 	media=total_altura/pessoas;
-	printf("a menor altura é %.2fl e a maior é %.2fl",menor_altura,maior_altura);
-	printf("a altura média feminina é %.2fl",media);
+	printf("a menor altura Ã© %.2f e a maior Ã© %.2f",menor_altura,maior_altura);
+	printf("a altura mÃ©dia feminina Ã© %.2f",media);
 }
