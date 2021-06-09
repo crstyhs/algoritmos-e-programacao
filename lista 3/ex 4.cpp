@@ -11,6 +11,6 @@ int main(){
 	H= H/divisao;
 	divisao++;}
 	
-	printf("o valor de H é %fl",H);
+	printf("o valor de H Ã© %f",H);
 	return 0;
 }
